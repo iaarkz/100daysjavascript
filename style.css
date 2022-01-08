@@ -27,6 +27,44 @@ body {
   display: flex;
   gap: 0.5rem;
 }
+.logo:hover {
+  animation: rainbow 6s infinite;
+}
+@keyframes rainbow {
+  0% {
+    color: #cc99c9;
+  }
+  10% {
+    color: #dcd6ff;
+  }
+  20% {
+    color: #d6f0ff;
+  }
+  30% {
+    color: #9ec1cf;
+  }
+  40% {
+    color: #9ee09e;
+  }
+  50% {
+    color: #deffef;
+  }
+  60% {
+    color: #fffaf0;
+  }
+  70% {
+    color: #ffeded;
+  }
+  80% {
+    color: #fdcd8a;
+  }
+  90% {
+    color: #ffa09f;
+  }
+  100% {
+    color: #ffdede;
+  }
+}
 .logo-img {
   height: 2.25rem;
   width: 2.25rem;
